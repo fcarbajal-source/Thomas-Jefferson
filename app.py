@@ -17,7 +17,7 @@ if not api_key:
 client = genai.Client(api_key=api_key)
 
 # Specify Gemini model (Adjust to "gemini-3.5-flash-lite" or current flash tier)
-MODEL_ID = "gemini-2.5-flash"
+MODEL_ID = "gemini-3.5-flash-lite"
 
 # -----------------------------------------------------------------------------
 # Jefferson Persona & System Prompt
